@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "start": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts --network localhost",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/chai-as-promised": "^8.0.1",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17",
+    "solidity-coverage": "^0.8.14"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "uninstall": "^0.0.0"
+  }
+}
